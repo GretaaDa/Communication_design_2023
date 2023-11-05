@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.scrollContainer {
+    width: 100%;
+    min-height: 100vh;
+    overflow: auto;
+    transition: background-image 2s;
+    padding: 10px;
+}
+
+.scrollText {
+    max-width: 90%;
+    padding: 10px;
+    background: rgb(255, 255, 255, 0.8);
+    color: #000;
+    margin: 300px;
+}
+
+#changingBg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 0;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+    .scrollText {
+        max-width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        margin: 90px;
+    }
+}
