@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box; 
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "helvetica";
     scroll-behavior: smooth;
 }
 
@@ -16,108 +16,33 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 10rem;
+    margin: 10px;
+    align-items: center;
 }
 
-
-
-.opening-par {
-    border-style: solid;
-    border-width: 0.5px 0;
-    border-color: lightgray;
-    background-color: white;
-
+p{
+    line-height: 1.5rem;
 }
 
-.opening-par img{
-    max-width: 100%;
+h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-.opening-par p{
-    margin: 1rem 2rem;
-    font-size: 20px;
+.mapIMG{
+    height:auto;
+    max-width: 50%;
+}
+.tablesIMG{
+    height:auto;
+    max-width: 50%;
 }
 
-.factor-list{
-    background-image: url(./images/3811637.jpg);
-    padding: 20rem 2rem;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.donutIMG{
+    height:auto;
+    max-width: 50%;
 }
 
-.factor-list div{
-    background-color: white;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 1rem 1rem #0000006e;
-}
-
-.list-items li{
-    padding-top: 1rem;
-}
-
-.short-facts{
-    background-image: url(./images/Wavy_Ppl-11_Single-01.jpg);
-    padding-bottom: 20rem;
-    background-position: right;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#fact1{
-    background-color: #261734;
-    padding: 2rem 1rem;
-    color: white;
-}
-
-#fact2, #fact3{
-    margin: 10rem 3rem;
-    padding: 1rem 2rem;
-    background-color: white;
-    border-radius: 50px;
-    border-style: groove;
-    color: #0c3b50;
-}
-
-.scrollContainer {
-    width: 100%;
-    min-height: 100vh;
-    overflow: auto;
-    transition: background-image 2s;
-    padding: 10px;
-}
-
-.scrollText {
-    max-width: 90%;
-    padding: 10px;
-    background: rgb(255, 255, 255, 0.8);
-    color: #000;
-    margin: 300px;
-}
-
-#changingBg {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-bottom: 0;
-}
-
-.fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
-}
-
-.fade-in.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-@media (max-width: 500px) {
-    .scrollText {
-        max-width: 100%;
-        background: rgba(255, 255, 255, 0.8);
-        margin: 90px;
-    }
+article{
+    padding-top: 50px;
 }
