@@ -18,6 +18,37 @@ body {
     gap: 10rem;
 }
 
+#Intro {
+    background-image: url("images/Intro.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100vh;
+}
+#SecondIntro {
+    background-image: url("images/SecondIntroTWO.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100vh;
+}
+
+#ThirdIntro {
+    background-image: url("images/ThirdIntroTWO.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100vh;
+}
+
+.scrollingText {
+    margin: 50vh auto;
+    max-width: 50rem;
+    padding: 1rem;
+    background-color: rgba(200, 200, 200, 0.825);
+    color: #000;
+}
+
+
 
 
 .opening-par {
@@ -84,7 +115,7 @@ body {
     min-height: 100vh;
     overflow: auto;
     transition: background-image 2s;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .scrollText {
